@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.motion.widget.MotionLayout
+        android:id="@+id/motionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main"
+        app:layoutDescription="@xml/fragment_home_scene">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@id/linearLayout2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <EditText
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/background_search"
+                android:drawableStart="@drawable/ic_baseline_search_24"
+                android:hint="@string/search"
+                android:maxLines="1"
+                android:minHeight="48dp" />
+
+            <ImageView
+                android:id="@+id/bt_shopping_cart"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingStart="8dp"
+                android:src="@drawable/ic_shopping_cart" />
+
+            <ImageView
+                android:id="@+id/bt_login"
+                android:layout_width="42dp"
+                android:layout_height="match_parent"
+                android:paddingStart="8dp"
+                android:src="@drawable/ic_baseline_account_circle_24" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/linearLayout2"
+            app:layout_constraintBottom_toTopOf="@id/linearLayout3"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <androidx.viewpager2.widget.ViewPager2
+                    android:id="@+id/vp2_slider"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp" />
+
+                <me.relex.circleindicator.CircleIndicator3
+                    android:id="@+id/cir_slider"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    app:ci_drawable="@drawable/cr_slider" />
+            </LinearLayout>
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shimmer_view_container1"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:orientation="vertical"
+                app:shimmer_base_color="@color/base_color"
+                app:shimmer_colored="true"
+                app:shimmer_highlight_color="@color/high_light">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <include layout="@layout/data_placeholder_layout2" />
+
+                </LinearLayout>
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/corners_30"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="@string/lastest_products"
+                android:textSize="24sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.facebook.shimmer.ShimmerFrameLayout
+                    android:id="@+id/shimmer_view_container2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    app:shimmer_base_color="@color/base_color"
+                    app:shimmer_colored="true"
+                    app:shimmer_highlight_color="@color/high_light">
+
+                    <GridLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:columnCount="2"
+                        android:rowCount="2">
+                        <include layout="@layout/data_placeholder_layout" />
+
+                        <include layout="@layout/data_placeholder_layout" />
+
+                        <include layout="@layout/data_placeholder_layout" />
+
+                        <include layout="@layout/data_placeholder_layout" />
+
+                        <include layout="@layout/data_placeholder_layout" />
+
+                        <include layout="@layout/data_placeholder_layout" />
+                    </GridLayout>
+                </com.facebook.shimmer.ShimmerFrameLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_marginBottom="60dp"
+                    android:id="@+id/rcv_product"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </FrameLayout>
+        </LinearLayout>
+
+    </androidx.constraintlayout.motion.widget.MotionLayout>
+</layout>
+

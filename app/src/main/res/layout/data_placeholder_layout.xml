@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_product"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="18dp"
+    android:padding="9dp">
+
+    <View
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:background="#dddddd" />
+
+    <View
+        android:layout_width="180dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:background="#dddddd"
+        android:text="name"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="160dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:background="#dddddd"
+        app:starNumber="5" />
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:background="#dddddd" />
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:background="#dddddd" />
+</LinearLayout>

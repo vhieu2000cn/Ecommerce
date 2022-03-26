@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/drawable-v24/background_search.xml" value="0.1875" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/drawable-v24/edt_corners_15.xml" value="0.24" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1845" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/drawable/background_text.xml" value="0.1875" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/drawable/backgroung_viewpager.xml" value="0.24" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/drawable/border_textview_5.xml" value="0.1875" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/drawable/bt_border_10.xml" value="0.1875" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/drawable/bt_corners_15.xml" value="0.1875" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/drawable/bt_corners_5.xml" value="0.24" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/drawable/corners_15.xml" value="0.1875" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/drawable/corners_30.xml" value="0.1875" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/drawable/corners_img_15.xml" value="0.1875" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/drawable/corners_login_30.xml" value="0.1875" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/drawable/cr_slider.xml" value="0.1875" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/drawable/ic_account.xml" value="0.2795" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/drawable/ic_android_black_24dp.xml" value="0.1845" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1875" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/drawable/ic_cancel.xml" value="0.1875" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1845" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/drawable/ic_main.xml" value="0.1875" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/drawable/ic_shopping_cart.xml" value="0.1875" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/drawable/ic_shopping_cart_black.xml" value="0.1875" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/drawable/minus_product.xml" value="0.1875" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/drawable/plus_product.xml" value="0.1875" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/drawable/rating_star.xml" value="0.1875" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/drawable/rating_star_outline.xml" value="0.1875" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/drawable/tv_corners_15.xml" value="0.1875" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/layout/data_placeholder_layout.xml" value="0.33" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/layout/data_placeholder_layout2.xml" value="0.2743589743589744" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/layout/fragment_log_out.xml" value="0.33" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/layout/fragment_login.xml" value="0.25" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/layout/fragment_order.xml" value="0.18" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/layout/fragment_payment.xml" value="0.5123703112529928" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/layout/fragment_product.xml" value="0.25" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/layout/fragment_shipping_cart.xml" value="0.33" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/layout/fragment_shopping_cart.xml" value="0.25" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/layout/fragment_sing_up.xml" value="0.22" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/layout/fragment_splash.xml" value="0.32852729145211124" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/layout/fragment_test.xml" value="0.33" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/layout/item_product_order.xml" value="0.2743589743589744" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/layout/rcv_item_product.xml" value="0.5" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/layout/rcv_item_product_order.xml" value="0.2743589743589744" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/layout/rcv_item_reviews.xml" value="0.23867753623188406" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/layout/rcv_item_shoppingcart.xml" value="0.33" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/layout/screen_home.xml" value="0.33" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/layout/screen_splash.xml" value="0.3302083333333333" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/layout/slider_item_product.xml" value="0.2" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/layout/test.xml" value="0.25" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1875" />
+        <entry key="..\:/Code/Android_native/Ecommerce/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.169" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

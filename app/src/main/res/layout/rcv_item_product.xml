@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="170dp"
+        android:layout_height="280dp"
+        android:layout_margin="12dp"
+        app:cardCornerRadius="15dp">
+
+        <LinearLayout
+            android:padding="9dp"
+            android:id="@+id/item_product"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/rcv_img_product"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/image_1"
+                app:shapeAppearanceOverlay="@style/roundimageview" />
+
+            <TextView
+                android:id="@+id/rcv_tv_title_product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:paddingTop="8dp"
+                android:text="name"
+                android:textSize="16sp" />
+
+            <com.example.ecommerce.presention.ui.page.util.ViewStar
+                android:id="@+id/rcv_number_star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:starNumber="5" />
+
+            <TextView
+                android:id="@+id/rcv_tv_reviews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="reviews"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/rcv_tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="8dp"
+                android:text="price"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</layout>
